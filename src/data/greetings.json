@@ -1,0 +1,668 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-07-13",
+    "description": "다국어 인사말 학습 데이터",
+    "targetAge": "7-9",
+    "totalLanguages": 8,
+    "totalGreetings": 10
+  },
+  "languages": [
+    {
+      "code": "ko",
+      "name": "한국어",
+      "nativeName": "한국어",
+      "flag": "🇰🇷",
+      "direction": "ltr",
+      "fontFamily": "Inter"
+    },
+    {
+      "code": "en",
+      "name": "영어",
+      "nativeName": "English",
+      "flag": "🇺🇸",
+      "direction": "ltr",
+      "fontFamily": "Inter"
+    },
+    {
+      "code": "ja",
+      "name": "일본어",
+      "nativeName": "日本語",
+      "flag": "🇯🇵",
+      "direction": "ltr",
+      "fontFamily": "Inter"
+    },
+    {
+      "code": "zh",
+      "name": "중국어",
+      "nativeName": "中文",
+      "flag": "🇨🇳",
+      "direction": "ltr",
+      "fontFamily": "Inter"
+    },
+    {
+      "code": "es",
+      "name": "스페인어",
+      "nativeName": "Español",
+      "flag": "🇪🇸",
+      "direction": "ltr",
+      "fontFamily": "Inter"
+    },
+    {
+      "code": "fr",
+      "name": "프랑스어",
+      "nativeName": "Français",
+      "flag": "🇫🇷",
+      "direction": "ltr",
+      "fontFamily": "Inter"
+    },
+    {
+      "code": "de",
+      "name": "독일어",
+      "nativeName": "Deutsch",
+      "flag": "🇩🇪",
+      "direction": "ltr",
+      "fontFamily": "Inter"
+    },
+    {
+      "code": "ar",
+      "name": "아랍어",
+      "nativeName": "العربية",
+      "flag": "🇸🇦",
+      "direction": "rtl",
+      "fontFamily": "Inter"
+    }
+  ],
+  "greetings": [
+    {
+      "id": "hello",
+      "korean": "안녕하세요",
+      "category": "basic",
+      "situation": "일반적인 인사",
+      "difficulty": 1,
+      "translations": {
+        "ko": {
+          "text": "안녕하세요",
+          "pronunciation": "an-nyeong-ha-se-yo",
+          "audioUrl": "/audio/ko/hello.mp3",
+          "notes": "가장 기본적인 인사말"
+        },
+        "en": {
+          "text": "Hello",
+          "pronunciation": "heh-LOH",
+          "audioUrl": "/audio/en/hello.mp3",
+          "notes": "Common greeting"
+        },
+        "ja": {
+          "text": "こんにちは",
+          "pronunciation": "kon-ni-chi-wa",
+          "audioUrl": "/audio/ja/hello.mp3",
+          "notes": "일반적인 낮 인사"
+        },
+        "zh": {
+          "text": "你好",
+          "pronunciation": "nǐ hǎo",
+          "audioUrl": "/audio/zh/hello.mp3",
+          "notes": "가장 기본적인 인사"
+        },
+        "es": {
+          "text": "Hola",
+          "pronunciation": "OH-lah",
+          "audioUrl": "/audio/es/hello.mp3",
+          "notes": "일반적인 인사"
+        },
+        "fr": {
+          "text": "Bonjour",
+          "pronunciation": "bon-ZHOOR",
+          "audioUrl": "/audio/fr/hello.mp3",
+          "notes": "낮 인사"
+        },
+        "de": {
+          "text": "Hallo",
+          "pronunciation": "HAH-loh",
+          "audioUrl": "/audio/de/hello.mp3",
+          "notes": "일반적인 인사"
+        },
+        "ar": {
+          "text": "مرحبا",
+          "pronunciation": "mar-ha-ban",
+          "audioUrl": "/audio/ar/hello.mp3",
+          "notes": "일반적인 인사"
+        }
+      },
+      "imageUrl": "/images/greetings/hello.svg",
+      "tags": ["basic", "common", "friendly"]
+    },
+    {
+      "id": "thank_you",
+      "korean": "고맙습니다",
+      "category": "polite",
+      "situation": "감사 인사",
+      "difficulty": 1,
+      "translations": {
+        "ko": {
+          "text": "고맙습니다",
+          "pronunciation": "go-map-seum-ni-da",
+          "audioUrl": "/audio/ko/thank_you.mp3",
+          "notes": "정중한 감사 표현"
+        },
+        "en": {
+          "text": "Thank you",
+          "pronunciation": "THANK yoo",
+          "audioUrl": "/audio/en/thank_you.mp3",
+          "notes": "Polite gratitude"
+        },
+        "ja": {
+          "text": "ありがとうございます",
+          "pronunciation": "a-ri-ga-tou-go-za-i-ma-su",
+          "audioUrl": "/audio/ja/thank_you.mp3",
+          "notes": "정중한 감사"
+        },
+        "zh": {
+          "text": "谢谢",
+          "pronunciation": "xiè xiè",
+          "audioUrl": "/audio/zh/thank_you.mp3",
+          "notes": "감사 표현"
+        },
+        "es": {
+          "text": "Gracias",
+          "pronunciation": "GRAH-see-ahs",
+          "audioUrl": "/audio/es/thank_you.mp3",
+          "notes": "감사 표현"
+        },
+        "fr": {
+          "text": "Merci",
+          "pronunciation": "mer-SEE",
+          "audioUrl": "/audio/fr/thank_you.mp3",
+          "notes": "감사 표현"
+        },
+        "de": {
+          "text": "Danke",
+          "pronunciation": "DAHN-kuh",
+          "audioUrl": "/audio/de/thank_you.mp3",
+          "notes": "감사 표현"
+        },
+        "ar": {
+          "text": "شكرا",
+          "pronunciation": "shuk-ran",
+          "audioUrl": "/audio/ar/thank_you.mp3",
+          "notes": "감사 표현"
+        }
+      },
+      "imageUrl": "/images/greetings/thank_you.svg",
+      "tags": ["polite", "gratitude", "basic"]
+    },
+    {
+      "id": "good_morning",
+      "korean": "좋은 아침",
+      "category": "time_based",
+      "situation": "아침 인사",
+      "difficulty": 2,
+      "translations": {
+        "ko": {
+          "text": "좋은 아침이에요",
+          "pronunciation": "jo-eun a-chim-i-e-yo",
+          "audioUrl": "/audio/ko/good_morning.mp3",
+          "notes": "아침 인사"
+        },
+        "en": {
+          "text": "Good morning",
+          "pronunciation": "good MOR-ning",
+          "audioUrl": "/audio/en/good_morning.mp3",
+          "notes": "Morning greeting"
+        },
+        "ja": {
+          "text": "おはようございます",
+          "pronunciation": "o-ha-you-go-za-i-ma-su",
+          "audioUrl": "/audio/ja/good_morning.mp3",
+          "notes": "정중한 아침 인사"
+        },
+        "zh": {
+          "text": "早上好",
+          "pronunciation": "zǎo shàng hǎo",
+          "audioUrl": "/audio/zh/good_morning.mp3",
+          "notes": "아침 인사"
+        },
+        "es": {
+          "text": "Buenos días",
+          "pronunciation": "BWAY-nos DEE-ahs",
+          "audioUrl": "/audio/es/good_morning.mp3",
+          "notes": "아침 인사"
+        },
+        "fr": {
+          "text": "Bonjour",
+          "pronunciation": "bon-ZHOOR",
+          "audioUrl": "/audio/fr/good_morning.mp3",
+          "notes": "아침/낮 인사"
+        },
+        "de": {
+          "text": "Guten Morgen",
+          "pronunciation": "GOO-ten MOR-gen",
+          "audioUrl": "/audio/de/good_morning.mp3",
+          "notes": "아침 인사"
+        },
+        "ar": {
+          "text": "صباح الخير",
+          "pronunciation": "sa-bah al-khayr",
+          "audioUrl": "/audio/ar/good_morning.mp3",
+          "notes": "아침 인사"
+        }
+      },
+      "imageUrl": "/images/greetings/good_morning.svg",
+      "tags": ["time_based", "morning", "polite"]
+    },
+    {
+      "id": "goodbye",
+      "korean": "안녕히 가세요",
+      "category": "farewell",
+      "situation": "작별 인사",
+      "difficulty": 2,
+      "translations": {
+        "ko": {
+          "text": "안녕히 가세요",
+          "pronunciation": "an-nyeong-hi ga-se-yo",
+          "audioUrl": "/audio/ko/goodbye.mp3",
+          "notes": "정중한 작별 인사"
+        },
+        "en": {
+          "text": "Goodbye",
+          "pronunciation": "good-BYE",
+          "audioUrl": "/audio/en/goodbye.mp3",
+          "notes": "Farewell"
+        },
+        "ja": {
+          "text": "さようなら",
+          "pronunciation": "sa-you-na-ra",
+          "audioUrl": "/audio/ja/goodbye.mp3",
+          "notes": "공식적인 작별"
+        },
+        "zh": {
+          "text": "再见",
+          "pronunciation": "zài jiàn",
+          "audioUrl": "/audio/zh/goodbye.mp3",
+          "notes": "작별 인사"
+        },
+        "es": {
+          "text": "Adiós",
+          "pronunciation": "ah-dee-OHS",
+          "audioUrl": "/audio/es/goodbye.mp3",
+          "notes": "작별 인사"
+        },
+        "fr": {
+          "text": "Au revoir",
+          "pronunciation": "oh ruh-VWAHR",
+          "audioUrl": "/audio/fr/goodbye.mp3",
+          "notes": "작별 인사"
+        },
+        "de": {
+          "text": "Auf Wiedersehen",
+          "pronunciation": "owf VEE-der-zayn",
+          "audioUrl": "/audio/de/goodbye.mp3",
+          "notes": "정중한 작별"
+        },
+        "ar": {
+          "text": "مع السلامة",
+          "pronunciation": "ma'a as-sa-la-mah",
+          "audioUrl": "/audio/ar/goodbye.mp3",
+          "notes": "작별 인사"
+        }
+      },
+      "imageUrl": "/images/greetings/goodbye.svg",
+      "tags": ["farewell", "polite", "basic"]
+    },
+    {
+      "id": "please",
+      "korean": "부탁드려요",
+      "category": "polite",
+      "situation": "부탁할 때",
+      "difficulty": 2,
+      "translations": {
+        "ko": {
+          "text": "부탁드려요",
+          "pronunciation": "bu-tak-deu-ryeo-yo",
+          "audioUrl": "/audio/ko/please.mp3",
+          "notes": "정중한 부탁"
+        },
+        "en": {
+          "text": "Please",
+          "pronunciation": "pleez",
+          "audioUrl": "/audio/en/please.mp3",
+          "notes": "Polite request"
+        },
+        "ja": {
+          "text": "お願いします",
+          "pronunciation": "o-ne-ga-i-shi-ma-su",
+          "audioUrl": "/audio/ja/please.mp3",
+          "notes": "정중한 부탁"
+        },
+        "zh": {
+          "text": "请",
+          "pronunciation": "qǐng",
+          "audioUrl": "/audio/zh/please.mp3",
+          "notes": "부탁할 때"
+        },
+        "es": {
+          "text": "Por favor",
+          "pronunciation": "por fah-VOR",
+          "audioUrl": "/audio/es/please.mp3",
+          "notes": "부탁할 때"
+        },
+        "fr": {
+          "text": "S'il vous plaît",
+          "pronunciation": "seel voo PLAY",
+          "audioUrl": "/audio/fr/please.mp3",
+          "notes": "정중한 부탁"
+        },
+        "de": {
+          "text": "Bitte",
+          "pronunciation": "BIT-tuh",
+          "audioUrl": "/audio/de/please.mp3",
+          "notes": "부탁할 때"
+        },
+        "ar": {
+          "text": "من فضلك",
+          "pronunciation": "min fad-lik",
+          "audioUrl": "/audio/ar/please.mp3",
+          "notes": "부탁할 때"
+        }
+      },
+      "imageUrl": "/images/greetings/please.svg",
+      "tags": ["polite", "request", "courtesy"]
+    },
+    {
+      "id": "excuse_me",
+      "korean": "실례합니다",
+      "category": "polite",
+      "situation": "양해를 구할 때",
+      "difficulty": 3,
+      "translations": {
+        "ko": {
+          "text": "실례합니다",
+          "pronunciation": "sil-lye-ham-ni-da",
+          "audioUrl": "/audio/ko/excuse_me.mp3",
+          "notes": "정중한 양해 요청"
+        },
+        "en": {
+          "text": "Excuse me",
+          "pronunciation": "ik-SKYOOZ mee",
+          "audioUrl": "/audio/en/excuse_me.mp3",
+          "notes": "Polite attention getter"
+        },
+        "ja": {
+          "text": "すみません",
+          "pronunciation": "su-mi-ma-sen",
+          "audioUrl": "/audio/ja/excuse_me.mp3",
+          "notes": "사과/양해"
+        },
+        "zh": {
+          "text": "不好意思",
+          "pronunciation": "bù hǎo yì si",
+          "audioUrl": "/audio/zh/excuse_me.mp3",
+          "notes": "양해 요청"
+        },
+        "es": {
+          "text": "Disculpe",
+          "pronunciation": "dis-KOOL-peh",
+          "audioUrl": "/audio/es/excuse_me.mp3",
+          "notes": "양해 요청"
+        },
+        "fr": {
+          "text": "Excusez-moi",
+          "pronunciation": "eks-koo-zay MWAH",
+          "audioUrl": "/audio/fr/excuse_me.mp3",
+          "notes": "양해 요청"
+        },
+        "de": {
+          "text": "Entschuldigung",
+          "pronunciation": "ent-SHOOL-di-goong",
+          "audioUrl": "/audio/de/excuse_me.mp3",
+          "notes": "양해/사과"
+        },
+        "ar": {
+          "text": "عذرا",
+          "pronunciation": "uzh-ran",
+          "audioUrl": "/audio/ar/excuse_me.mp3",
+          "notes": "양해 요청"
+        }
+      },
+      "imageUrl": "/images/greetings/excuse_me.svg",
+      "tags": ["polite", "apology", "attention"]
+    },
+    {
+      "id": "sorry",
+      "korean": "죄송합니다",
+      "category": "apology",
+      "situation": "사과할 때",
+      "difficulty": 2,
+      "translations": {
+        "ko": {
+          "text": "죄송합니다",
+          "pronunciation": "joe-song-ham-ni-da",
+          "audioUrl": "/audio/ko/sorry.mp3",
+          "notes": "정중한 사과"
+        },
+        "en": {
+          "text": "Sorry",
+          "pronunciation": "SOR-ee",
+          "audioUrl": "/audio/en/sorry.mp3",
+          "notes": "Apology"
+        },
+        "ja": {
+          "text": "ごめんなさい",
+          "pronunciation": "go-men-na-sai",
+          "audioUrl": "/audio/ja/sorry.mp3",
+          "notes": "사과"
+        },
+        "zh": {
+          "text": "对不起",
+          "pronunciation": "duì bù qǐ",
+          "audioUrl": "/audio/zh/sorry.mp3",
+          "notes": "사과"
+        },
+        "es": {
+          "text": "Lo siento",
+          "pronunciation": "loh see-EN-toh",
+          "audioUrl": "/audio/es/sorry.mp3",
+          "notes": "사과"
+        },
+        "fr": {
+          "text": "Désolé",
+          "pronunciation": "day-zo-LAY",
+          "audioUrl": "/audio/fr/sorry.mp3",
+          "notes": "사과"
+        },
+        "de": {
+          "text": "Es tut mir leid",
+          "pronunciation": "es toot meer LYTE",
+          "audioUrl": "/audio/de/sorry.mp3",
+          "notes": "사과"
+        },
+        "ar": {
+          "text": "آسف",
+          "pronunciation": "aa-sif",
+          "audioUrl": "/audio/ar/sorry.mp3",
+          "notes": "사과"
+        }
+      },
+      "imageUrl": "/images/greetings/sorry.svg",
+      "tags": ["apology", "polite", "emotion"]
+    },
+    {
+      "id": "welcome",
+      "korean": "천만에요",
+      "category": "response",
+      "situation": "감사에 대한 응답",
+      "difficulty": 3,
+      "translations": {
+        "ko": {
+          "text": "천만에요",
+          "pronunciation": "cheon-man-e-yo",
+          "audioUrl": "/audio/ko/welcome.mp3",
+          "notes": "감사에 대한 응답"
+        },
+        "en": {
+          "text": "You're welcome",
+          "pronunciation": "yoor WEL-kum",
+          "audioUrl": "/audio/en/welcome.mp3",
+          "notes": "Response to thanks"
+        },
+        "ja": {
+          "text": "どういたしまして",
+          "pronunciation": "dou-i-ta-shi-ma-shi-te",
+          "audioUrl": "/audio/ja/welcome.mp3",
+          "notes": "감사에 대한 응답"
+        },
+        "zh": {
+          "text": "不客气",
+          "pronunciation": "bù kè qi",
+          "audioUrl": "/audio/zh/welcome.mp3",
+          "notes": "감사에 대한 응답"
+        },
+        "es": {
+          "text": "De nada",
+          "pronunciation": "deh NAH-dah",
+          "audioUrl": "/audio/es/welcome.mp3",
+          "notes": "감사에 대한 응답"
+        },
+        "fr": {
+          "text": "De rien",
+          "pronunciation": "duh ree-AHN",
+          "audioUrl": "/audio/fr/welcome.mp3",
+          "notes": "감사에 대한 응답"
+        },
+        "de": {
+          "text": "Gern geschehen",
+          "pronunciation": "gern guh-SHAY-en",
+          "audioUrl": "/audio/de/welcome.mp3",
+          "notes": "감사에 대한 응답"
+        },
+        "ar": {
+          "text": "عفوا",
+          "pronunciation": "af-wan",
+          "audioUrl": "/audio/ar/welcome.mp3",
+          "notes": "감사에 대한 응답"
+        }
+      },
+      "imageUrl": "/images/greetings/welcome.svg",
+      "tags": ["response", "courtesy", "polite"]
+    },
+    {
+      "id": "nice_to_meet_you",
+      "korean": "만나서 반가워요",
+      "category": "introduction",
+      "situation": "첫 만남",
+      "difficulty": 3,
+      "translations": {
+        "ko": {
+          "text": "만나서 반가워요",
+          "pronunciation": "man-na-seo ban-ga-wo-yo",
+          "audioUrl": "/audio/ko/nice_to_meet_you.mp3",
+          "notes": "첫 만남 인사"
+        },
+        "en": {
+          "text": "Nice to meet you",
+          "pronunciation": "nys tuh MEET yoo",
+          "audioUrl": "/audio/en/nice_to_meet_you.mp3",
+          "notes": "First meeting"
+        },
+        "ja": {
+          "text": "はじめまして",
+          "pronunciation": "ha-ji-me-ma-shi-te",
+          "audioUrl": "/audio/ja/nice_to_meet_you.mp3",
+          "notes": "첫 만남"
+        },
+        "zh": {
+          "text": "很高兴见到你",
+          "pronunciation": "hěn gāo xìng jiàn dào nǐ",
+          "audioUrl": "/audio/zh/nice_to_meet_you.mp3",
+          "notes": "첫 만남"
+        },
+        "es": {
+          "text": "Mucho gusto",
+          "pronunciation": "MOO-choh GOOS-toh",
+          "audioUrl": "/audio/es/nice_to_meet_you.mp3",
+          "notes": "첫 만남"
+        },
+        "fr": {
+          "text": "Enchanté",
+          "pronunciation": "ahn-shahn-TAY",
+          "audioUrl": "/audio/fr/nice_to_meet_you.mp3",
+          "notes": "첫 만남"
+        },
+        "de": {
+          "text": "Freut mich",
+          "pronunciation": "froyt mikh",
+          "audioUrl": "/audio/de/nice_to_meet_you.mp3",
+          "notes": "첫 만남"
+        },
+        "ar": {
+          "text": "تشرفنا",
+          "pronunciation": "ta-shar-raf-na",
+          "audioUrl": "/audio/ar/nice_to_meet_you.mp3",
+          "notes": "첫 만남"
+        }
+      },
+      "imageUrl": "/images/greetings/nice_to_meet_you.svg",
+      "tags": ["introduction", "first_meeting", "polite"]
+    },
+    {
+      "id": "how_are_you",
+      "korean": "어떻게 지내세요?",
+      "category": "inquiry",
+      "situation": "안부 인사",
+      "difficulty": 3,
+      "translations": {
+        "ko": {
+          "text": "어떻게 지내세요?",
+          "pronunciation": "eo-tteo-ke ji-nae-se-yo",
+          "audioUrl": "/audio/ko/how_are_you.mp3",
+          "notes": "안부 인사"
+        },
+        "en": {
+          "text": "How are you?",
+          "pronunciation": "how are yoo",
+          "audioUrl": "/audio/en/how_are_you.mp3",
+          "notes": "Asking about wellbeing"
+        },
+        "ja": {
+          "text": "元気ですか?",
+          "pronunciation": "gen-ki de-su ka",
+          "audioUrl": "/audio/ja/how_are_you.mp3",
+          "notes": "안부 인사"
+        },
+        "zh": {
+          "text": "你好吗?",
+          "pronunciation": "nǐ hǎo ma",
+          "audioUrl": "/audio/zh/how_are_you.mp3",
+          "notes": "안부 인사"
+        },
+        "es": {
+          "text": "¿Cómo estás?",
+          "pronunciation": "KOH-moh es-TAHS",
+          "audioUrl": "/audio/es/how_are_you.mp3",
+          "notes": "안부 인사"
+        },
+        "fr": {
+          "text": "Comment allez-vous?",
+          "pronunciation": "koh-mahn tah-lay VOO",
+          "audioUrl": "/audio/fr/how_are_you.mp3",
+          "notes": "정중한 안부"
+        },
+        "de": {
+          "text": "Wie geht es Ihnen?",
+          "pronunciation": "vee gayt es EE-nen",
+          "audioUrl": "/audio/de/how_are_you.mp3",
+          "notes": "정중한 안부"
+        },
+        "ar": {
+          "text": "كيف حالك؟",
+          "pronunciation": "kayf ha-lak",
+          "audioUrl": "/audio/ar/how_are_you.mp3",
+          "notes": "안부 인사"
+        }
+      },
+      "imageUrl": "/images/greetings/how_are_you.svg",
+      "tags": ["inquiry", "wellbeing", "conversation"]
+    }
+  ]
+}

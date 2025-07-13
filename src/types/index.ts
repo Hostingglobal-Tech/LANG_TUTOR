@@ -1,10 +1,27 @@
+export interface GreetingTranslation {
+  text: string;
+  pronunciation: string;
+  audioUrl: string;
+  notes: string;
+}
+
 export interface Greeting {
   id: string;
   korean: string;
-  romanized: string;
-  audioUrl: string;
-  illustrationUrl: string;
-  category: 'basic' | 'polite' | 'casual' | 'special';
+  category:
+    | 'basic'
+    | 'polite'
+    | 'time_based'
+    | 'farewell'
+    | 'apology'
+    | 'response'
+    | 'introduction'
+    | 'inquiry';
+  situation: string;
+  difficulty: 1 | 2 | 3;
+  translations: Record<string, GreetingTranslation>;
+  imageUrl: string;
+  tags: string[];
 }
 
 export interface Language {
@@ -12,7 +29,8 @@ export interface Language {
   name: string;
   nativeName: string;
   flag: string;
-  greetings: Greeting[];
+  direction: 'ltr' | 'rtl';
+  fontFamily: string;
 }
 
 export interface AudioPlayerState {
