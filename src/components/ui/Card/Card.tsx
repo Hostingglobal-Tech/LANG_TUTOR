@@ -21,7 +21,8 @@ interface CardProps extends React.HTMLAttributes<HTMLDivElement> {
     | 'translationBox'
     | 'statusBox'
     | 'welcomeBox'
-    | 'errorBox';
+    | 'errorBox'
+    | 'successBox';
   padding?: 'sm' | 'md' | 'lg';
   interactive?: boolean;
   children: React.ReactNode;

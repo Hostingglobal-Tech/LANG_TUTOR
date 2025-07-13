@@ -72,6 +72,22 @@ const buttonVariants = {
       box-shadow: 0 0 0 4px ${({ theme }) => theme.colors.accent.purple}40;
     }
   `,
+
+  error: css`
+    background-color: ${({ theme }) => theme.colors.error};
+    color: ${({ theme }) => theme.colors.neutral[0]};
+    border: 2px solid ${({ theme }) => theme.colors.error};
+
+    &:hover:not(:disabled) {
+      background-color: #dc2626;
+      border-color: #dc2626;
+      transform: translateY(-1px);
+    }
+
+    &:focus {
+      box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.3);
+    }
+  `,
 };
 
 // Button size styles
@@ -102,7 +118,7 @@ const buttonSizes = {
 };
 
 interface StyledButtonProps {
-  $variant?: 'primary' | 'secondary' | 'success' | 'playButton';
+  $variant?: 'primary' | 'secondary' | 'success' | 'playButton' | 'error';
   $size?: 'sm' | 'md' | 'lg';
   $fullWidth?: boolean;
   $isPlaying?: boolean;

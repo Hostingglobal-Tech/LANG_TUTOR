@@ -61,6 +61,12 @@ const cardVariants = {
     border: 2px solid ${({ theme }) => theme.colors.error};
     box-shadow: ${({ theme }) => theme.boxShadow.sm};
   `,
+
+  successBox: css`
+    background-color: ${({ theme }) => theme.colors.secondary[50]};
+    border: 2px solid ${({ theme }) => theme.colors.secondary[400]};
+    box-shadow: ${({ theme }) => theme.boxShadow.sm};
+  `,
 };
 
 interface StyledCardProps {

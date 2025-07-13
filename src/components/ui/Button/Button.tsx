@@ -9,7 +9,7 @@ import {
 } from './Button.styled';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'secondary' | 'success' | 'playButton';
+  variant?: 'primary' | 'secondary' | 'success' | 'playButton' | 'error';
   size?: 'sm' | 'md' | 'lg';
   fullWidth?: boolean;
   isPlaying?: boolean;
@@ -51,3 +51,4 @@ const Button: React.FC<ButtonProps> = ({
 };
 
 export default Button;
+export { Button };

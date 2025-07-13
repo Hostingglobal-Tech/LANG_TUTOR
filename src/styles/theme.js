@@ -283,4 +283,278 @@ export const globalStyles = `
   }
 `;
 
+// Dark Theme Configuration for Multilingual Greetings App
+// Child-friendly dark color palette with high contrast and eye comfort
+const darkTheme = {
+  // Primary color palette - Softer blues for dark mode
+  colors: {
+    // Main brand colors (adjusted for dark backgrounds)
+    primary: {
+      50: '#0f172a', // Very dark blue (inverted)
+      100: '#1e293b', // Dark blue
+      200: '#334155', // Medium dark blue
+      300: '#475569', // Medium blue
+      400: '#64748b', // Light blue
+      500: '#94a3b8', // Main light blue
+      600: '#cbd5e1', // Lighter blue
+      700: '#e2e8f0', // Very light blue
+      800: '#f1f5f9', // Almost white blue
+      900: '#f8fafc', // Near white
+    },
+
+    // Secondary colors - Soft greens for comfort
+    secondary: {
+      50: '#0f1a14', // Very dark green
+      100: '#16302b', // Dark green
+      200: '#1f4037', // Medium dark green
+      300: '#2d5a47', // Medium green
+      400: '#4ade80', // Accent green (kept bright)
+      500: '#34d399', // Main green
+      600: '#6ee7b7', // Light green
+      700: '#a7f3d0', // Very light green
+      800: '#d1fae5', // Almost white green
+      900: '#ecfdf5', // Near white green
+    },
+
+    // Accent colors - Vibrant but eye-friendly
+    accent: {
+      purple: '#c084fc', // Softer purple
+      pink: '#f472b6', // Softer pink
+      orange: '#fb923c', // Softer orange
+      yellow: '#fbbf24', // Softer yellow
+      red: '#f87171', // Softer red
+    },
+
+    // Neutral colors - Dark theme neutrals
+    neutral: {
+      0: '#0f172a', // Dark background
+      50: '#1e293b', // Very dark gray
+      100: '#334155', // Dark gray
+      200: '#475569', // Medium dark gray
+      300: '#64748b', // Medium gray
+      400: '#94a3b8', // Light gray
+      500: '#cbd5e1', // Very light gray
+      600: '#e2e8f0', // Almost white
+      700: '#f1f5f9', // Near white
+      800: '#f8fafc', // Very light
+      900: '#ffffff', // Pure white (for text)
+    },
+
+    // Semantic colors for dark mode
+    success: '#34d399', // Bright green for visibility
+    warning: '#fbbf24', // Bright amber
+    error: '#f87171', // Soft red
+    info: '#60a5fa', // Bright blue
+  },
+
+  // Typography system (same as light theme)
+  typography: {
+    fontFamily: {
+      primary: "'Inter', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif",
+      secondary: "'Comic Neue', 'Arial', sans-serif",
+      mono: "'JetBrains Mono', 'Courier New', monospace",
+    },
+    fontSize: {
+      xs: '0.75rem',
+      sm: '0.875rem',
+      base: '1rem',
+      lg: '1.125rem',
+      xl: '1.25rem',
+      '2xl': '1.5rem',
+      '3xl': '1.875rem',
+      '4xl': '2.25rem',
+      '5xl': '3rem',
+    },
+    fontWeight: {
+      light: 300,
+      normal: 400,
+      medium: 500,
+      semibold: 600,
+      bold: 700,
+      extrabold: 800,
+    },
+    lineHeight: {
+      tight: 1.25,
+      normal: 1.5,
+      relaxed: 1.75,
+    },
+  },
+
+  // Spacing system (same as light theme)
+  spacing: {
+    0: '0',
+    1: '0.25rem',
+    2: '0.5rem',
+    3: '0.75rem',
+    4: '1rem',
+    5: '1.25rem',
+    6: '1.5rem',
+    8: '2rem',
+    10: '2.5rem',
+    12: '3rem',
+    16: '4rem',
+    20: '5rem',
+    24: '6rem',
+  },
+
+  // Border radius (same as light theme)
+  borderRadius: {
+    none: '0',
+    sm: '0.25rem',
+    base: '0.5rem',
+    md: '0.75rem',
+    lg: '1rem',
+    xl: '1.5rem',
+    '2xl': '2rem',
+    full: '9999px',
+  },
+
+  // Dark mode shadows (more subtle)
+  boxShadow: {
+    sm: '0 1px 2px 0 rgba(0, 0, 0, 0.3)',
+    base: '0 1px 3px 0 rgba(0, 0, 0, 0.4), 0 1px 2px 0 rgba(0, 0, 0, 0.3)',
+    md: '0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3)',
+    lg: '0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.3)',
+    xl: '0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.2)',
+  },
+
+  // Component-specific styling for dark mode
+  components: {
+    button: {
+      primary: {
+        backgroundColor: '#3b82f6',
+        color: '#ffffff',
+        borderColor: '#3b82f6',
+        hoverBackgroundColor: '#2563eb',
+        focusRingColor: '#93c5fd',
+      },
+      secondary: {
+        backgroundColor: '#374151',
+        color: '#f9fafb',
+        borderColor: '#4b5563',
+        hoverBackgroundColor: '#4b5563',
+        focusRingColor: '#93c5fd',
+      },
+      success: {
+        backgroundColor: '#10b981',
+        color: '#ffffff',
+        borderColor: '#10b981',
+        hoverBackgroundColor: '#059669',
+        focusRingColor: '#86efac',
+      },
+    },
+    card: {
+      backgroundColor: '#1e293b',
+      borderColor: '#334155',
+      shadowColor: 'rgba(0, 0, 0, 0.4)',
+      hoverShadowColor: 'rgba(0, 0, 0, 0.6)',
+    },
+    input: {
+      backgroundColor: '#374151',
+      borderColor: '#4b5563',
+      focusBorderColor: '#3b82f6',
+      focusRingColor: '#93c5fd',
+      placeholderColor: '#9ca3af',
+    },
+  },
+
+  // Breakpoints (same as light theme)
+  breakpoints: {
+    sm: '640px',
+    md: '768px',
+    lg: '1024px',
+    xl: '1280px',
+    '2xl': '1536px',
+  },
+
+  // Animation (same as light theme)
+  animation: {
+    duration: {
+      fast: '150ms',
+      normal: '200ms',
+      slow: '300ms',
+    },
+    easing: {
+      ease: 'ease',
+      easeIn: 'ease-in',
+      easeOut: 'ease-out',
+      easeInOut: 'ease-in-out',
+    },
+  },
+
+  // Z-index (same as light theme)
+  zIndex: {
+    base: 0,
+    dropdown: 1000,
+    sticky: 1020,
+    fixed: 1030,
+    modal: 1040,
+    popover: 1050,
+    tooltip: 1060,
+  },
+};
+
+// Global styles for dark theme
+export const darkGlobalStyles = `
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: ${darkTheme.typography.fontFamily.primary};
+    background: linear-gradient(135deg, ${darkTheme.colors.neutral[50]} 0%, ${darkTheme.colors.neutral[100]} 100%);
+    color: ${darkTheme.colors.neutral[800]};
+    line-height: ${darkTheme.typography.lineHeight.normal};
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+
+  /* Focus styles for dark mode */
+  *:focus {
+    outline: 3px solid ${darkTheme.colors.primary[500]};
+    outline-offset: 2px;
+  }
+
+  *:focus:not(:focus-visible) {
+    outline: none;
+  }
+
+  *:focus-visible {
+    outline: 3px solid ${darkTheme.colors.primary[500]};
+    outline-offset: 2px;
+  }
+
+  /* High contrast mode support */
+  @media (prefers-contrast: high) {
+    body {
+      background: ${darkTheme.colors.neutral[0]};
+      color: ${darkTheme.colors.neutral[900]};
+    }
+  }
+
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* Print styles (force light theme for printing) */
+  @media print {
+    body {
+      background: white !important;
+      color: black !important;
+    }
+  }
+`;
+
 export default lightTheme;
+export { darkTheme };
