@@ -1,0 +1,30 @@
+# 프로젝트 및 개발 환경 세팅
+
+**Task ID:** T-001
+**Status:** BACKLOG
+**Importance:** MUST
+**Complexity:** 3/10
+**Urgency:** 10/10
+**Dependencies:** None
+
+## Description
+
+### 설명
+Next.js 기반의 프로젝트를 초기화하고, 필수 라이브러리(styled-components, react-howler, i18next 등) 설치 및 ESLint/Prettier, Lighthouse CI 등 기본 개발 환경을 구성합니다. 폴더 구조는 TRD의 도메인 기반 구조를 따릅니다.
+### 구현 세부 단계
+1. `npx create-next-app`으로 프로젝트 생성
+2. styled-components, react-howler, i18next, eslint, prettier, axe-core, lighthouse 등 필수 라이브러리 설치
+3. TRD 예시 폴더 구조에 맞게 디렉토리 생성 및 기본 파일 배치
+4. ESLint/Prettier 설정 파일 작성 및 적용
+5. Lighthouse CI 설정 파일 추가
+6. git 저장소 초기화 및 .gitignore 작성
+### 테스트 전략
+- Next.js 개발 서버 정상 기동 확인
+- ESLint/Prettier 자동 포맷 및 린트 동작 확인
+- Lighthouse CI로 접근성/성능 점수 90점 이상 확인
+- 폴더 구조 및 의존성 설치 상태 점검
+
+---
+
+**Created:** 2025-07-13T10:37:01.195Z
+**Updated:** 2025-07-13T10:37:01.195Z

@@ -1,0 +1,28 @@
+# 첫 정적 배포 환경(Netlify/Vercel) 설정 및 배포
+
+**Task ID:** T-008
+**Status:** BACKLOG
+**Importance:** MUST
+**Complexity:** 3/10
+**Urgency:** 9/10
+**Dependencies:** T-007
+
+## Description
+
+### 설명
+Git 연동, 빌드 및 배포 파이프라인을 구축하고, Netlify 또는 Vercel에 정적 배포하여 최초 결과물을 공유합니다. HTTPS, CORS 등 기본 보안 설정을 적용합니다.
+### 구현 세부 단계
+1. GitHub 등 원격 저장소 연동 및 CI/CD 파이프라인 설정
+2. Netlify 또는 Vercel 프로젝트 생성 및 빌드 명령어(next build, next export) 등록
+3. greetings.json, 오디오/이미지 파일 CDN 또는 public 디렉토리 연동 확인
+4. HTTPS, CORS 등 기본 보안 옵션 적용
+5. 배포 후 URL 공유 및 정상 동작 확인
+### 테스트 전략
+- 배포된 URL에서 모든 기능(언어 선택, 카드, 오디오 등) 정상 동작 확인
+- HTTPS 및 CORS 정책 정상 적용 여부 확인
+- Lighthouse로 성능/접근성 점수 재측정 및 90점 이상 확보
+
+---
+
+**Created:** 2025-07-13T10:37:01.195Z
+**Updated:** 2025-07-13T10:37:01.195Z

@@ -1,0 +1,27 @@
+# 간단한 스타일/테마(라이트모드) 적용
+
+**Task ID:** T-007
+**Status:** BACKLOG
+**Importance:** SHOULD
+**Complexity:** 2/10
+**Urgency:** 5/10
+**Dependencies:** T-006
+
+## Description
+
+### 설명
+MVP 수준의 일관된 기본 스타일 및 라이트 테마를 적용하여 가독성을 높이고 아이 친화적 톤을 구현합니다. styled-components의 ThemeProvider를 활용합니다.
+### 구현 세부 단계
+1. src/styles/에 theme.js(라이트 테마) 및 글로벌 스타일 정의
+2. ThemeProvider로 전체 앱에 테마 적용
+3. 버튼, 카드, 배경 등 주요 UI 요소에 일관된 색상/폰트/여백 적용
+4. 아이 친화적 색상 팔레트 선정 및 적용
+### 테스트 전략
+- 주요 UI 요소에 테마가 일관되게 적용되는지 확인
+- 라이트 테마에서 가독성 및 시각적 일관성 점검
+- 테마 적용 후 접근성 점수 재확인
+
+---
+
+**Created:** 2025-07-13T10:37:01.195Z
+**Updated:** 2025-07-13T10:37:01.195Z

@@ -1,0 +1,28 @@
+# 오디오 재생(react-howler 연동, 음성 아이콘 클릭) 구현
+
+**Task ID:** T-005
+**Status:** BACKLOG
+**Importance:** MUST
+**Complexity:** 5/10
+**Urgency:** 7/10
+**Dependencies:** T-004
+
+## Description
+
+### 설명
+카드 내 음성 아이콘 클릭 시 300ms 이내 CDN의 음성파일을 react-howler로 재생하고, 재생 상태에 따라 UI 피드백(재생중 애니메이션 등)을 제공합니다.
+### 구현 세부 단계
+1. GreetingCard 컴포넌트에 react-howler 연동
+2. 음성 아이콘 클릭 이벤트 핸들러 구현
+3. 300ms 이내 오디오 재생 시작 보장(오디오 preload/lazy load 적용)
+4. 재생 중/정지 상태에 따라 아이콘 또는 애니메이션 표시
+5. 오디오 재생 오류 처리(파일 미존재 등)
+### 테스트 전략
+- 음성 아이콘 클릭 시 300ms 이내 오디오 재생 확인
+- 재생 중/정지 상태 UI 피드백 정상 동작 확인
+- 오디오 파일 경로 오류 시 graceful fallback 동작 확인
+
+---
+
+**Created:** 2025-07-13T10:37:01.195Z
+**Updated:** 2025-07-13T10:37:01.195Z

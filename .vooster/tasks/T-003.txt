@@ -1,0 +1,28 @@
+# 언어 선택 기능(드롭다운/플래그 UI) 구현
+
+**Task ID:** T-003
+**Status:** BACKLOG
+**Importance:** MUST
+**Complexity:** 4/10
+**Urgency:** 8/10
+**Dependencies:** T-002
+
+## Description
+
+### 설명
+화면 상단에 언어 선택 컴포넌트(드롭다운 또는 플래그 리스트)를 구현하고, 선택 시 카드 목록이 해당 언어로 갱신되도록 합니다. i18next와 greetings.json 연동을 적용합니다.
+### 구현 세부 단계
+1. src/components/LanguagePicker/ 디렉토리 생성 및 컴포넌트 작성
+2. i18next 초기화 및 언어 리소스 public/locale에 배치
+3. 언어 선택 시 상태 관리(React useState 또는 context)로 현재 언어 변경
+4. 선택된 언어에 따라 카드 목록 필터링 및 i18next 언어 변경
+5. 플래그 아이콘 또는 언어명 표시 UI 구현
+### 테스트 전략
+- 언어 선택 시 카드 목록이 해당 언어로 즉시 변경되는지 확인
+- i18next 다국어 리소스 정상 적용 여부 확인
+- 키보드 탐색 및 접근성 속성(aria-label 등) 점검
+
+---
+
+**Created:** 2025-07-13T10:37:01.195Z
+**Updated:** 2025-07-13T10:37:01.195Z

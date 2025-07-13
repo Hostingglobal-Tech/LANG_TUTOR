@@ -1,0 +1,27 @@
+# 정적 데이터(greetings.json) 설계 및 샘플 준비
+
+**Task ID:** T-002
+**Status:** BACKLOG
+**Importance:** MUST
+**Complexity:** 2/10
+**Urgency:** 9/10
+**Dependencies:** T-001
+
+## Description
+
+### 설명
+인사말, 언어, 원문, 발음, 음성파일 URL, 일러스트 경로 등 MVP용 샘플 데이터를 설계하고 greetings.json 파일로 작성합니다. 데이터 구조는 언어/카드 확장에 용이하도록 설계합니다.
+### 구현 세부 단계
+1. 언어별(8개) 인사말 10개 이상 샘플 데이터 스키마 설계
+2. 각 인사말에 대해: { "language": string, "korean": string, "original": string, "pronunciation": string, "audioUrl": string, "imageUrl": string }
+3. 음성/일러스트 파일은 CDN 또는 public/audio, public/images에 미리 업로드 및 경로 지정
+4. greetings.json 파일을 프로젝트 루트에 작성 및 저장
+### 테스트 전략
+- greetings.json이 올바른 JSON 포맷인지 검증
+- 각 데이터 항목별로 음성/이미지 경로가 실제 파일과 매칭되는지 확인
+- 언어/카드 추가 시 구조 확장성 점검
+
+---
+
+**Created:** 2025-07-13T10:37:01.195Z
+**Updated:** 2025-07-13T10:37:01.195Z
