@@ -11,9 +11,8 @@ const nextConfig = {
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
-  output: 'export',
-  trailingSlash: true,
-  distDir: 'out',
+  // Vercel 배포용 설정
+  ...(process.env.VERCEL ? {} : { output: 'export', trailingSlash: true, distDir: 'out' }),
   poweredByHeader: false,
   compress: true,
   
