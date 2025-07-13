@@ -1,6 +1,10 @@
 import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import I18nProvider from '@/components/I18nProvider';
+import AccessibilityProvider from '@/components/AccessibilityProvider';
+import SkipNavigation from '@/components/SkipNavigation';
+import ThemeProvider from '@/components/ThemeProvider';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -25,7 +29,16 @@ export default function RootLayout({
   return (
     <html lang="ko">
       <body className={inter.className}>
-        <main>{children}</main>
+        <SkipNavigation />
+        <ThemeProvider>
+          <AccessibilityProvider>
+            <I18nProvider>
+              <main id="main-content" tabIndex={-1}>
+                {children}
+              </main>
+            </I18nProvider>
+          </AccessibilityProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
